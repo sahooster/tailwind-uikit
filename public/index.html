@@ -10,25 +10,40 @@
 </head>
 <body>
 
-    <div class="uk-container uk-container-xsmall bg-green-500 text-white">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tempore accusamus harum commodi quia vel ipsam veniam minima mollitia assumenda laboriosam nulla quibusdam, dicta eum autem fuga, ipsa quis beatae!</p>
-    </div>
+    
+    <section class="relative"><!--Header-->
+    
+        <div class="md:px-28 px-5" uk-navbar><!--Navbar-->
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#"><img src="/images/logo 1.png" alt="" width="150"></a></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right z-20">
+                <div class="uk-navbar-nav">
+                    <button class="uk-button bg-white rounded-sm" uk-toggle="target: #offcanvas-bar">Menu</button>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div id="offcanvas-bar" uk-offcanvas="mode: slide; flip: true">
+            <div class="uk-offcanvas-bar">
+                <button type="button" class="uk-offcanvas-close bg-blue-500" uk-close></button>
+    
+                <ul class="uk-nav uk-nav-primary">
+                    <li class="uk-active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <img src="/images/header_image_2.png" class="absolute top-0 right-0"  alt="" width="550">
+    </section>
 
-    <div class="uk-container uk-container-small bg-blue-500 text-white">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tempore accusamus harum commodi quia vel ipsam veniam minima mollitia assumenda laboriosam nulla quibusdam, dicta eum autem fuga, ipsa quis beatae!</p>
-    </div>
 
-    <div class="uk-container uk-container-large bg-slate-500 text-white">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tempore accusamus harum commodi quia vel ipsam veniam minima mollitia assumenda laboriosam nulla quibusdam, dicta eum autem fuga, ipsa quis beatae!</p>
-    </div>
-
-    <div class="uk-container uk-container-xlarge bg-red-500 text-white">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tempore accusamus harum commodi quia vel ipsam veniam minima mollitia assumenda laboriosam nulla quibusdam, dicta eum autem fuga, ipsa quis beatae!</p>
-    </div>
-
-    <div class="uk-container uk-container-expand bg-puple-500 text-white">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tempore accusamus harum commodi quia vel ipsam veniam minima mollitia assumenda laboriosam nulla quibusdam, dicta eum autem fuga, ipsa quis beatae!</p>
-    </div>
 
 
 
